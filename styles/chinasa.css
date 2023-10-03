@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(43, 34, 34);
+  background-color: lightslategray;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -80,6 +80,27 @@ body {
 .mobile-links.show {
   display: block;
 }
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.nav-links li a:hover {
+  color: #ff005d; /* Change the link color on hover */
+}
+
+/* Existing CSS styles */
+
+.mobile-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.mobile-links li a:hover {
+  color: hsl(349, 100%, 50%); /* Change the link color on hover */
+}
 .ica {
   text-align: center;
   color: lightblue;
@@ -91,4 +112,61 @@ body {
 }
 .mimi {
   font-size: 20px;
+}
+.pypy {
+  text-align: center;
+  list-style: none;
+}
+.about {
+  background-color: burlywood;
+}
+
+section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: bu;
+}
+
+.divider .my-4 {
+  color: white;
+}
+.psst {
+  color: black;
+  padding-left: 20px;
+  padding-top: 0px;
+  font-size: 17px;
+  margin-left: 30px;
+}
+.imgimg {
+  padding-left: 30px;
+}
+.contact-box {
+  text-align: center;
+}
+.footerAA {
+  background-color: lightskyblue;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.footer {
+  background-color: lightskyblue;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  line-height: 50px;
+}
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+  margin: 10px 30px 30px 30px;
+  padding-right: 60px;
+}
+.phone {
+  background-color: aqua;
+  color: black;
 }
